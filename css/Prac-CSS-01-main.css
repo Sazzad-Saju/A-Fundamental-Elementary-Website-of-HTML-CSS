@@ -1,0 +1,41 @@
+p,
+div {
+    font-size: 24px;
+}
+
+
+/* adv. page linkup  */
+
+.plink {
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgba(135, 206, 250, 0.664);
+}
+
+.plink a {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}
+
+.plink a:hover {
+    background-color: royalblue;
+    color: black;
+}
+
+.plink span {
+    padding-left: 40px;
+}
+
+#current {
+    background-color: royalblue;
+    color: black;
+}
+
+#current:hover {
+    background-color: darkblue;
+    color: white;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 25px 44px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 22px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        p {
+            padding: 60px;
+            text-align: center;
+            background: cornsilk;
+            color: white;
+            font-size: 30px;
+        }
+        
+        h1 {
+            padding: 60px;
+            text-align: center;
+            background: cornflowerblue;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: cornflowerblue">
+        <br>
+        <h1 id="empty" style="text-align: center;">
+            <button type="button" onclick="getPosition()"><b>Get Location<b></button>
+        </h1>
+
+        <script>
+            var fh = document.getElementById("empty");
+            var lat;
+            var long;
+            var lin;
+
+            function getPosition() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                }
+            }
+
+            function showPosition(position) {
+                lat = position.coords.latitude;
+                long = position.coords.longitude;
+                fh.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude + "<br>(HTML Location API)";
+                lin = "https://maps.google.com/maps?q=" + lat + "," + long + "&hl=es;z=14&output=embed";
+                // fh.innerHTML = lin;
+                document.getElementById('pmap').src = lin;
+            }
+        </script>
+
+        <p>
+            <iframe id="pmap" width="700" height="400" frameborder="0" src="http://maps.google.com/maps?q&hl=es;z=14&output=embed">
+   </iframe>
+        </p>
+        <!-- <p>
+    <iframe 
+    id = "pmap" width="700" height="400" frameborder="0" 
+    src = "http://maps.google.com/maps?q=25.69866,88.65617&hl=es;z=14&output=embed"
+    
+    >
+   </iframe>
+   </p> -->
+    </div>
+</body>
+
+</html>

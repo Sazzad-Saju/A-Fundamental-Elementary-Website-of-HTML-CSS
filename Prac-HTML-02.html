@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prac-HTML-02</title>
+    <!-- External css  -->
+    <link rel="stylesheet" href="css/Prac-HTML-02.css">
+</head>
+
+<body>
+    <!-- Heading -->
+    <h1 class="heading">Prac-HTML-02</h1>
+    <br>
+
+    <!-- HTML-I-frame -->
+    <div class="border">
+        <h2 id="V-heading">HTML Inline-Frame</h2>
+        <iframe src="Prac-HTML-01.html" frameborder="0" height="400" width="600" style="padding-left: 30px;"></iframe>
+
+        <iframe src="https://hackertyper.net/" frameborder="0" height="400" width="600" style="padding-left: 55px;"></iframe>
+        <br>
+    </div>
+    <br>
+
+    <!-- Image from Online  -->
+    <div class="border">
+        <h2 class="img-online">Image From Online</h2>
+        <div class="center">
+            <img src="https://ih1.redbubble.net/image.485729005.5684/mp,840x830,matte,f8f8f8,t-pad,1000x1000,f8f8f8.u3.jpg" height="150" width="150" alt="Image-From-Online">
+            <br>
+            <a href="https://gintama.fandom.com/wiki/Elizabeth" target="_blank"><b>Elizabeth | Gintama </b></a>
+        </div>
+        <br>
+    </div>
+    <br>
+
+    <!-- Table -->
+    <div class="mytable1">
+        <h2 class="tbl-heading">HTML Table</h2>
+        <div class="tbl-footer">
+            <table class="center">
+                <caption>Table1: Class One Result</caption>
+                <tr>
+                    <th>Roll</th>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Saju</td>
+                    <td>Mathematics</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Raju</td>
+                    <td>English</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Epshita</td>
+                    <td rowspan="2">Science</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <!-- <td>04</td> -->
+                    <td colspan="2">Shakia</td>
+                    <!-- <td>Science</td> -->
+                    <td>30</td>
+                </tr>
+            </table>
+            <br>
+            <span class="highlight">margin-left: auto;
+                <br>
+                margin-right: auto;
+                <br>
+            </span> -These two brings the table to the center.
+        </div>
+        <br>
+    </div>
+    <br>
+
+    <!-- HTML LIST -->
+    <!-- nested unorder-list  -->
+    <div class="border III-body">
+        <h2 id="III-heading">HTML list</h2>
+        <div class="center-list">
+            <ul>
+                <li>
+                    <b>Some Movies-Unorder List-Link:</b>
+                    <ul>
+                        <li><a id="movie-link" href="https://www.imdb.com/title/tt0108052/" target="_blank">Schinder's
+                                List</a></li>
+                        <li><a id="movie-link" href="https://www.imdb.com/title/tt0338013/" target="_blank">Eternal
+                                Sunshine of the Spotless Mind</a></li>
+                        <li><a id="movie-link" href="https://www.imdb.com/title/tt7984734/" target="_blank">The
+                                Lighthouse</a></li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <b>Some Stars-Order List</b>
+                    <ol>
+                        <li>Jennifer Connelly</li>
+                        <li>Ellie Fanning</li>
+                        <li>Chrissy Costanza</li>
+                    </ol>
+                </li>
+                <br>
+                <hX><b>Some Books-Order List-Type casting</b></hX>
+                <ol type="i">
+                    <li>A Chrissmas Carrol</li>
+                    <li>The Old Man and the Sea</li>
+                    <li>The Adventures of Huckleberry Finn</li>
+                </ol>
+            </ul>
+        </div>
+    </div>
+    <br>
+
+    <!-- HTML Block and Inline  -->
+    <div class="border IV-body">
+        <h2 id="IV-heading">HTML Block and Inline</h2>
+        <div class="padding">
+            The <b>Vigenère cipher</b> (French pronunciation: ​[viʒnɛːʁ]) is a method of encrypting alphabetic text by using a <span class="IV-highlight"> series of interwoven Caesar ciphers</span>, based on the letters of a keyword. It employs a form
+            of polyalphabetic substitution.<sup>[1][2]</sup><br><br> First described by Giovan Battista Bellaso <span class="IV-highlight">in 1553</span>, the cipher is easy to understand and implement, but it resisted all attempts to break it until 1863,
+            three centuries later. This earned it the description le chiffre indéchiffrable (French for <span class="IV-highlight">'the
+                indecipherable cipher'</span>). Many people have tried to implement encryption schemes that are essentially Vigenère ciphers.<sup>[3]</sup> In 1863, Friedrich Kasiski was the first to publish a general method of deciphering Vigenère ciphers.
+        </div>
+        <br>
+    </div>
+    <br>
+
+    <!-- advance page linkup -->
+    <div class="plink">
+        <span>Go To:</span>
+        <span><a href="Prac-HTML-01.html">1</a></span>
+        <span><a id="current" href="Prac-HTML-02.html">2</a></span>
+        <span><a href="Prac-HTML-03.html">3</a></span>
+        <span><a href="Prac-CSS-01.html">4</a></span>
+        <span><a href="Prac-CSS-02.html">5</a></span>
+        <span><a href="Prac-CSS-03.html">6</a></span>
+    </div>
+    <br>
+
+    <!-- HTML-Javascript  -->
+    <div class="center cls-addr">
+        <button type="button" onclick=open_addr()>Open Address</button>
+        <button type="button" onclick=close_addr()>Close Address</button>
+        <div class="center">
+            <address id="addr_id" hidden>
+                <h2>HTML JavaScript</h2>
+                Sazzad Saju <br>
+                CSE, HSTU. <br>
+                Kishoregonj, Bangladesh.
+            </address>
+        </div>
+    </div>
+
+    <script>
+        function open_addr() {
+            document.getElementById("addr_id").style.display = 'block';
+        }
+
+        function close_addr() {
+            // document.getElementById("addr_id").innerHTML= "This is from Javascript";
+            document.getElementById("addr_id").style.display = 'none';
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>

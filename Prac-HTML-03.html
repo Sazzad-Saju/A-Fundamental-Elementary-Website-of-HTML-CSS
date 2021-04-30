@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prac-HTML-03</title>
+    <link rel="stylesheet" href="css/Prac-HTML-03.css">
+</head>
+
+<body>
+    <!-- heading  -->
+    <h1 class="heading">Prac-HTML-03</h1>
+
+    <!-- responsiveness image  -->
+    <div class="border">
+        <h2 class="I_heading">Responsive Image</h2>
+        <div class="center">
+            <!-- <img class="res" src="img/Cap_Haddock.png" alt="Captin Haddock"> -->
+            <a href="img/Cap_Haddock.png">
+                <img src="img/Cap_Haddock.png" class="res" alt="Captin Haddock">
+            </a>
+            <br><br> Captin Haddock from <q>The Advanture of Tintin</q>
+        </div>
+        <br>
+    </div>
+    <br>
+
+    <!-- HTML-Form  -->
+    <div class="border" style="background-color: turquoise;">
+        <h2 style="background-color:cadetblue;">HTML-Form</h2>
+        <div style="padding-right: 5%;">
+            <form action="Extension.html" method="get" style="text-align:right;">
+                <label for="username">User Name: <sup>*</sup> </label>
+                <input type="text" id="username" autofocus required>
+                <br> <br>
+                <label for="password">Password:<sup>*</sup> </label>
+                <input type="password" name="" id="password" maxlength="8" required>
+                <br> <br>
+                <textarea name="" id="" cols="33" rows="10" placeholder="About Yourself"></textarea>
+                <br> <br> Location:
+                <input type="text" list="mylist">
+                <datalist id="mylist">
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Kishoregonj">Kishoregonj</option>
+                    <option value="Tangail">Tangail</option>
+                    <option value="Dinajpur">Dinajpur</option>
+                    <option value="Bidesh">Bidesh</option>
+                </datalist>
+                <br><br>
+                <label for="gender">Gender: </label>
+                <select name="" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br><br> <span>Are you interested to our project?</span>
+                <input type="radio" name="ques" id="" value="yes"> Yes
+                <input type="radio" name="ques" id="" value="no"> No
+                <br><br>
+                <input type="submit" value="submit" id="submit">
+            </form>
+        </div>
+        <br>
+    </div>
+
+    <!-- HTML-Media  -->
+    <div style="background-color: black; color: white;">
+        <h2 style="background-color: darkslategray;">HTML-Media</h2>
+        <h3 class="center media-heading">Wanna Be Friends? <br>
+            <video src="videos/logan.mp4" controls height="409" width="727"></video>
+        </h3>
+        <h3 class="center media-heading" style="background-color: darkslategray;"> <br> Ubisoft Audio: <br>
+            <audio controls>
+                <source src="audio/Ubisoft Logo - Intro.mp3" type="audio/wav">
+            </audio>
+            <br> <br> YouTube Embedded Video: <br>
+            <iframe width="727" height="409" src="https://www.youtube.com/embed/xuCn8ux2gbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br>
+        </h3>
+    </div>
+
+    <!-- advance page linkup -->
+    <div class="plink">
+        <span>Go To:</span>
+        <span><a href="Prac-HTML-01.html">1</a></span>
+        <span><a href="Prac-HTML-02.html">2</a></span>
+        <span><a id="current" href="Prac-HTML-03.html">3</a></span>
+        <span><a href="Prac-CSS-01.html">4</a></span>
+        <span><a href="Prac-CSS-02.html">5</a></span>
+        <span><a href="Prac-CSS-03.html">6</a></span>
+    </div>
+    <br>
+
+    <!-- address  -->
+    <div class="center">
+        <address id="addr_id" draggable="true">
+            <h2>HTML Draggable</h2>
+            Sazzad Saju <br>
+            CSE, HSTU. <br>
+            Kishoregonj, Bangladesh.
+        </address>
+    </div>
+
+</body>
+
+</html>

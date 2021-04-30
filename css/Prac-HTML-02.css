@@ -1,0 +1,153 @@
+.heading {
+    text-align: center;
+    background-color: cyan;
+    color: darkblue;
+    font-family: fantasy;
+}
+
+.img-online {
+    background-color: teal;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+p,
+a,
+div,
+span,
+li,
+hX {
+    font-size: 18px;
+}
+
+table {
+    text-align: center;
+    border: 1px solid black;
+    padding-left: 40px;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.mytable1 {
+    border: 1px solid black;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tbl-heading {
+    background-color: cadetblue;
+}
+
+.tbl-footer {
+    text-align: center;
+}
+
+.highlight {
+    color: crimson;
+}
+
+.center-list {
+    /* padding-left: 35%; */
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.III-body {
+    background-color: cornsilk;
+    color: chocolate;
+}
+
+#III-heading {
+    background-color: khaki;
+}
+
+#IV-heading {
+    background-color: cornflowerblue;
+    color: white
+}
+
+.IV-body {
+    background-color: lightskyblue;
+}
+
+.IV-highlight {
+    background-color: lightgoldenrodyellow;
+}
+
+#V-heading {
+    background-color: lavender;
+    color: blueviolet;
+}
+
+.padding {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#movie-link {
+    color: chocolate;
+}
+
+.btn {
+    padding: 10;
+}
+
+.cls-addr {
+    background-color: cyan;
+    color: darkblue;
+}
+
+
+/* adv. page linkup  */
+
+.plink {
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgba(135, 206, 250, 0.664);
+}
+
+.plink a {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}
+
+.plink a:hover {
+    background-color: royalblue;
+    color: black;
+}
+
+.plink span {
+    padding-left: 40px;
+}
+
+#current {
+    background-color: royalblue;
+    color: black;
+}
+
+#current:hover {
+    background-color: darkblue;
+    color: white;
+}

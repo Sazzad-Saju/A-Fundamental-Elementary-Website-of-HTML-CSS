@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prac-CSS-03</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/e97b225049.js"></script>
+    <link rel="stylesheet" href="css/Prac-CSS-03.css">
+</head>
+
+<body>
+    <div class="bg">
+        <!-- main title  -->
+        <h1 class="title">Prac-CSS-03</h1>
+        <!-- sticky title -->
+        <h2 class="stick">Welcome</h2>
+        <br>
+
+        <!-- margin-outline-image -->
+        <div class="myprofile">
+            <h3>My Profile</h3>
+            <p>
+                <b>Margin-Border-Outline-Image:</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam animi, incidunt dolores, aliquam porro consectetur praesentium explicabo quam tenetur rerum sapiente aperiam nulla unde delectus alias.
+                Asperiores amet dignissimos ea laborum atque id, aliquid dolor iure illo illum perferendis. Tenetur voluptas assumenda magni eius porro iste temporibus harum sapiente quia sit omnis ipsum vel odit voluptatibus, magnam obcaecati perspiciatis
+                quae neque! Labore accusamus ex iusto nihil expedita voluptatem reiciendis similique aliquam sapiente assumenda totam quisquam rem facere quas eos maxime molestiae, maiores exercitationem temporibus mollitia porro. Quia nulla suscipit
+                obcaecati eaque cum iure eum dolorem facere odit, quas at perferendis!
+            </p>
+            <img src="img/Meh2.jpg" height="100px" width="100px" alt="meh">
+        </div>
+        <br>
+
+        <!-- Css table  -->
+        <div class="mytable">
+            <h2 style="display: inline;">CSS Table: </h2>
+            <span>Create a table, border in table, also border td and th then background color, padding, then Border-collapse in table.
+            Take div:tableContainer, minimum width and margin:auto to move in center. apply background color and padding as necessary.
+            Can take another div: mytable to apply background color, padding and margin.
+        Finally hover in table: change bg, color, opacity. Now mention accordingly mytable and tableContainer before table or td th tag. Change mytable background opacity manually</span>
+            <br><br>
+            <div class="tableContainer">
+                <table>
+                    <caption style="padding-bottom:20px;"><b>Table1: Class One Result</b></caption>
+                    <tr>
+                        <th>Roll</th>
+                        <th>Name</th>
+                        <th>Subjects</th>
+                        <th>Marks</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Saju</td>
+                        <td>Mathematics</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Raju</td>
+                        <td>English</td>
+                        <td>70</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>Epshita</td>
+                        <td rowspan="2">Science</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Shakia</td>
+                        <td>30</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+        </div>
+        <br>
+
+        <!-- css font icon  -->
+        <div class="font-block">
+            <h2 style="text-align: center;"><u>CSS-Font-Icon</u></h2>
+            Logo: <i class="fa fa-address-book"></i> <i class="fa fa-cloud"></i> <br> First bg, color, border, padding, outline, margin, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi illum deserunt sunt labore temporibus ipsa, facilis
+            eligendi impedit nesciunt nihil animi, natus suscipit adipisci assumenda. Neque corrupti recusandae eaque ipsam illo illum similique aut? Voluptatum libero possimus dolorem asperiores ullam iure quia. Sequi, nesciunt. Nobis pariatur reiciendis
+            aspernatur ex. Id! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloremque magni quis dolorum voluptates mollitia excepturi omnis ullam hic ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, unde! <br><br>
+            <a href="https://fontawesome.com/icons?d=gallery&p=2" target="_blank">Get Awesome Icon</a>
+        </div>
+        <br>
+
+        <!-- advance page linkup -->
+        <div class="plink">
+            <span>Go To:</span>
+            <span><a href="Prac-HTML-01.html">1</a></span>
+            <span><a href="Prac-HTML-02.html">2</a></span>
+            <span><a href="Prac-HTML-03.html">3</a></span>
+            <span><a href="Prac-CSS-01.html">4</a></span>
+            <span><a href="Prac-CSS-02.html">5</a></span>
+            <span><a id="current" href="Prac-CSS-03.html">6</a></span>
+        </div>
+        <br>
+
+        <address style="background-color: rgba(211, 211, 211, 0.612); padding: 20px; text-align: center;" draggable="true">
+            Sazzad Hossain Saju <br>
+            CSE, HSTU<br>
+            Kishoregonj, Bangladesh
+        </address>
+    </div>
+</body>
+
+</html>

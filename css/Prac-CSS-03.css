@@ -1,0 +1,168 @@
+.bg {
+    position: absolute;
+    background-color: khaki;
+    left: 0;
+    top: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.stick {
+    /* background-color: darkgoldenrod; */
+    background-color: floralwhite;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    opacity: 0.6;
+    padding: 15px;
+}
+
+.myprofile {
+    border: 20px solid lightskyblue;
+    background-color: cornflowerblue;
+    outline: 20px solid lightblue;
+    width: 428px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.myprofile p {
+    text-align: justify;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.myprofile img {
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
+
+.myprofile h3 {
+    text-align: center;
+}
+
+
+/* table  */
+
+.mytable {
+    /* background-color: lightgray; */
+    background-color: rgba(211, 211, 211, 0.612);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.tableContainer {
+    width: 350px;
+    margin: auto;
+    background-color: mediumslateblue;
+    padding: 30px;
+    padding-right: 40px;
+}
+
+.tableContainer table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.tableContainer table td {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
+.tableContainer table th {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: green;
+    color: white;
+}
+
+.mytable div table tr th:hover {
+    background-color: limegreen;
+    color: black;
+    opacity: 0.8;
+}
+
+div,
+p,
+td,
+th,
+span {
+    font-size: 18px;
+}
+
+.font-block {
+    background-color: teal;
+    color: white;
+    border: 15px solid aliceblue;
+    padding: 20px;
+    outline: 15px solid brown;
+    margin: 40px 80px 40px 80px;
+    font-size: 24px;
+    text-align: justify;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.font-block a {
+    background-color: darkslategray;
+    color: white;
+    text-decoration: none;
+    border: 2px solid darkgray;
+    padding: 15px;
+    display: block;
+    width: 200px;
+    margin: auto;
+    border-radius: 8px 8px;
+}
+
+.font-block a:hover {
+    color: white;
+    background-color: darkred;
+}
+
+
+/* adv. page linkup  */
+
+.plink {
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgba(135, 206, 250, 0.664);
+}
+
+.plink a {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}
+
+.plink a:hover {
+    background-color: royalblue;
+    color: black;
+}
+
+.plink span {
+    padding-left: 30px;
+}
+
+#current {
+    background-color: royalblue;
+    color: black;
+}
+
+#current:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+@media only screen and (max-width:600px) {
+    .plink span {
+        padding-left: 5px;
+    }
+}
