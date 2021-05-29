@@ -30,3 +30,9 @@ Topics:
 <li>Background_image-no_repeat-fixed_attachment-size_mentioned-controled_opacity, Online-CSS, RWD-Grid, RWD-Media-quarry  </li>
 <li>Sticky_navbar, Inline_div: margin-border-outline-image, CSS-Table: border_border-collapse_padding_background-color_hover, CSS-font-icon: resp.btn, colorful, controlled opacity</li>
 <li>Get-Location: Location Api expressed in latitude and longitude, map possition, JS-function-variable, colorful </li>
+
+---
+External Link
+---
+Documentation in Bangali Language: https://www.scribd.com/document/505707666/A-Handnote-on-the-Fundamentals-of-HTML-and-CSS
+
