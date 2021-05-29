@@ -34,6 +34,6 @@ Topics:
 ---
 External Link
 ---
-Documentation in Bangali Language: https://www.scribd.com/document/505707666/A-Handnote-on-the-Fundamentals-of-HTML-and-CSS
-Github Host Page: https://sazzad-saju.github.io/A-Fundamental-Elementary-Website-of-HTML-CSS/
+* Documentation in Bangali Language: https://www.scribd.com/document/505707666/A-Handnote-on-the-Fundamentals-of-HTML-and-CSS <br>
+* Github Host Page: https://sazzad-saju.github.io/A-Fundamental-Elementary-Website-of-HTML-CSS/
 
